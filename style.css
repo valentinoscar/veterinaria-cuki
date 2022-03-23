@@ -1,0 +1,111 @@
+body{
+    background-image:url("img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*menu*/
+.menu{
+    background:transparent;
+    border: solid 0.2em rgb(18, 122, 65);
+    width: 80%;
+    border-radius: 0.5em;
+    box-shadow: 1em 0.5em rgb(46, 87, 49);/*efecto sombra del borde*/
+    margin-left: auto;/*para centrar el contenedor del menu*/
+    margin-right: auto;
+    margin-top: 2em; /*margen superior del contenedor del menu*/
+}
+.menu ul{
+    list-style: none; /*quita los puntitos de los items*/
+    margin: 0em;
+    padding: 0em;
+
+}
+.menu ul li{
+    display: inline-block; /*pone el menu en horizontal*/
+}
+.menu ul li a{
+    color:black;
+    text-decoration: none; /*quita el subrayado*/
+    display:block;
+    padding: 1em 2em;
+}
+.menu ul li a:hover{
+    background-color:rgb(94, 192, 146); /*efecto sobra al seleccionar el item*/
+    text-decoration: underline;
+    border-radius: 00.5em;
+    
+}
+.cont-izq{
+    float: right;
+}
+h1{
+    color:rgb(55, 89, 201);
+    margin-top: 1em;
+    margin-left: 1em;
+    text-shadow: rgb(115, 150, 173) 0.08em 0.08em;
+}
+/*nosotros*/
+.Nosotros{
+    background:transparent;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    border-radius:1em;
+    padding: 1em;
+    border: solid 0.2em rgb(18, 122, 65);
+    box-shadow: 1em 0.5em rgb(37, 104, 43);/*efecto sombra del borde*/
+}
+/*servicios*/
+.container{
+    background:transparent;
+    width: 80%;
+    margin-top: 2em;
+    border-radius:1em;
+    border: solid 0.2em rgb(18, 122, 65);
+    box-shadow: 1em 0.5em rgb(46, 87, 49);
+   text-align: center;
+}
+.row{
+    margin: 1em;
+    padding: 1em;
+}
+.contacto{
+    background:transparent;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    border-radius:1em;
+    padding: 1em;
+    border: solid 0.2em rgb(9, 116, 62);
+    box-shadow: 1em 0.5em rgb(46, 87, 49);
+}
+p{
+    font-style: oblique;
+    font-family: cursive;
+    font-size: 1.2em;
+    font-weight: bold;
+    color:white;
+}
+.col-6{
+    padding: 1em;
+}
+.contacto .row .col-6 img{
+height: auto;
+width: auto;
+max-width: 3em;
+max-height: 3em;
+    
+}
+h3{
+    font-size: 2em;
+    color:black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: rgb(238, 244, 245) 0.1em 0.1em;
+
+}
+h5{
+  text  
+}
